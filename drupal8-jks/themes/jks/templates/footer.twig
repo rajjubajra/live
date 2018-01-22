@@ -1,0 +1,24 @@
+{# footer Twig template #}
+<div class="container">
+    <footer>
+
+        {% if page.footer_one %}
+            <h2>{{ page.marquee_heading }}</h2>
+            <marquee class="marquee" behavior="scroll" direction="left">
+                {{ page.footer_one }}
+            </marquee>
+
+
+        {% endif %}
+
+
+
+        {% if page.footer_two %}
+            <div class="footer">
+                {{ page.footer_two }}
+            </div>
+        {% endif %}   
+
+
+    </footer>
+</div>

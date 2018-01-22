@@ -1,0 +1,56 @@
+name: JKS
+type: theme
+description: Drupal Theme for JKS London
+core: 8.x
+base theme: false
+
+
+libraries:
+    - jks/vendorstyle
+    - jks/base
+    - jks/fontawesome
+
+
+regions:
+    company_logo_at_top: 'Company Logo at top'
+    header_middle_block: 'Header Midle block'
+    address_top_right: 'Address top right'
+    primary_menu: 'Primary Menu'
+    carousel: 'Carousel'
+    jks_brief: 'JKS Brief Introduction'
+    services_frontpage: 'Services Front Page'
+    services_page: 'Services Page'
+    services_page_block_top: 'Services Page Block Top'
+    services_in_detail: 'Service in Details'
+    secondary_menu: 'Secondary Menu'
+    breadcrumb: 'Breadcrumb'
+    highlighted: 'Highlighted'
+    content: 'Content'
+    column_left: 'Left column'
+    column_right: 'Right column'
+    left_sidebar: 'Left sidebar'
+    right_sidebar: 'Right sidebar'
+    aboutus_block_1: 'About us Block 1'
+    aboutus_block_2: 'About us Block 2'
+    aboutus_block_image: 'About us : Image'
+    client_block_1: 'Clienet Block one'
+    client_block_2: 'Client Block two'
+    client_logo: 'Client Logo'
+    services: 'Services'
+    team: 'Team: Senior Members'
+    team_all_heading: 'Team All Heading'
+    team_all: 'Team: All Members'
+    accreditation_heading: 'Accreditation Heading'
+    accreditation_content: 'Accreditation Content'
+    accrediation: 'Accrediation'
+    contact_page_heading: 'Contact Page Heading'
+    contact_address_block_1: 'Contact Address Block 1'
+    contact_address_block_2: 'Contact Address Block 2'
+    contact_form_title: 'Contact Form Title'
+    contact_enquiry_form: 'Enquiry Form'
+    contact_google_map: 'Conatact Page Google Map'
+    image_row_at_buttom: 'Image row at buttom'
+    marquee_heading: 'Marquee Heading'
+    footer_one: 'Footer one'
+    footer_two: 'Footer Two'
+    unused_block: 'Unused Blocks'

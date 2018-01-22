@@ -1,0 +1,30 @@
+
+<div class="floated-image">
+
+{% if label_hidden %}
+  {% if multiple %}
+    
+      {% for item in items %}
+        {{ item.content }}
+      {% endfor %}
+    
+  {% else %}
+    {% for item in items %}
+      {{ item.content }}
+    {% endfor %}
+  {% endif %}
+{% else %}
+  
+    
+    {% if multiple %}
+      
+    {% endif %}
+    {% for item in items %}
+      {{ item.content }}
+    {% endfor %}
+    {% if multiple %}
+      
+    {% endif %}
+ 
+{% endif %}
+</div>

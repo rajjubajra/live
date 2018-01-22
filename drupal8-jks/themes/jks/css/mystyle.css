@@ -1,0 +1,708 @@
+/* my style */
+.container{
+    background-color: #fff;
+    padding: 0px 20px 0px;
+    /*opacity: 0.80;*/
+    background: rgba(255,255,255,0.75); /* 0.75 opacity background white for modern browsers */
+
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.min-height{
+    min-height: 1000px;
+}
+.width-padding {
+    padding: 0px 40px;
+}
+
+.divider, hr.divider20px {
+    padding: 20px 0px;
+}
+
+hr.divider30px {
+    margin: 30px 0;
+}
+
+
+div#block-jksintroduction {
+    margin-top: -35px;
+}
+
+
+
+
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    background-color: #ccc;
+    border-radius: 6px;
+}
+
+img.jks-teamatwork {
+    border-radius: 10px;
+}
+
+
+/* user login page */
+.loginform {
+    width: 400px;
+    margin: 0px auto;
+}
+
+.loginform img {
+    width: 50%;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.loginform form {
+    width: 300px;
+    margin: 0px auto;
+    padding: 30px;
+}
+
+loginform .form-submit {
+    width: 160px;
+    background-color: #424a87;
+    border: 1px solid #c5c2c2;
+    color: #ccc;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+input#edit-submit {
+    width: 160px;
+}
+
+input#edit-preview {
+    display: none;
+}
+
+a#edit-field-project-description-0-format-help-about {
+    display: none;
+}
+
+
+
+
+
+
+
+/* Sticky Header */
+.sticky {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1001;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15);
+    border-top: 2px solid #0088CC;
+}
+
+.sticky .header-top {
+    display: none;
+}
+
+
+/* header logo */
+
+
+
+
+video#vidbg { 
+
+    position: fixed;
+    top: 50%;   
+    transform: translate(0, -50%);
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    z-index: -10;
+
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #0b4998;
+    border-color: #4cae4c;
+}
+
+
+
+/*FONT BLOCK */
+
+body{
+    font-family: sans-serif;
+    color: #000;
+
+    line-height: 1.4;
+}
+
+h1, h1 {
+    font-size: 29px;
+    letter-spacing: 5px;
+    color: #424887;
+    margin-bottom: 40px;
+}
+
+h2, h3{
+    color: #053d88;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.text-block{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #111;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 200;
+    text-align: justify;
+}
+
+
+h3 span{
+    font-family: times new roman;
+    font-style: italic;
+    font-weight: 200;
+    color: #000;
+}
+
+.carousel-caption h1{
+    color: #fff;
+}
+
+.carousel-control span.fa {
+    position: relative;
+    top: 45%;
+    font-size: 40px;
+}
+
+
+
+.views-element-container img{
+
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+
+}
+
+div#block-jkslondoniscommittedtogrowingresponsibly {
+    padding: 20px 40px 10px 0px;
+    border-right: 1px solid #ccc;
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
+/*FONT BLOCK CLOSED */
+
+
+
+
+
+
+
+
+
+
+/*div block s*/
+
+.text-block {
+    text-align: justify; 
+    padding: 10px 0px;
+}
+
+text-block img{
+
+    padding: 15px; 
+
+}
+
+
+
+
+/*IMAGES*/
+
+.img-service{
+    margin: 15px;
+}
+
+
+img.aboutus2{
+    width: 100%;
+}
+
+.charity img {
+
+    display: block;
+    padding: 18px;
+    background-color: #fff;
+    border: 10px solid #ccc;
+}
+
+div#block-jksaboutusimage img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+
+
+
+
+/*HEADER BLOCK*/
+
+.header-height{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1.5%;
+    position: relative;
+    left: 0.5%;
+}
+
+img.logo{
+    margin-top: 20px;
+}
+.wave-image img{
+    margin-top: 11.5%;
+    width: 100%;
+}
+a.telcall img {
+    width: 88%;
+    display: block;
+    height: auto;
+    padding-top: 3.5%;
+}
+
+
+
+div.address-header span.header{
+    letter-spacing: 3px;
+    line-height: 7px;
+    font-size: 16px;
+    color: #1a4b98;
+    font-weight: 400;
+    font-family: sans-serif;
+    display: block;
+
+}
+
+
+
+
+/*NAVIGATION BAR */
+
+
+.navbar {
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 0px solid transparent;
+    border-top: 1px solid #ccc;
+    width: 100.8%;
+    position: relative;
+    left: -5px;
+
+}
+
+
+
+.navbar ul.dropdown-content li a{
+    list-style: none;
+    width: 250px;
+    box-shadow: 0px 2px 9px 0px #ccc;
+}
+
+
+
+.navbar ul.dropdown-content li{
+    list-style: none;
+}
+
+
+
+/* DROPDOWN MANU */
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: -40px;
+    min-width: 160px;
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+    z-index: 1;
+}
+
+ul.dropdown-content li a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+ul.dropdown-content li a:hover,
+.navbar-default .navbar-nav > li > a:hover {
+    background-color: #666;
+    color: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.navbar-default .navbar-nav > li > a, ul.dropdown-content li a {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+/* drop down menu colour */
+
+
+/* Drop Down content */
+.dropdown:hover{background-color: #f8f8f8; color: #000;}
+
+.dropdown-content a{background-color: #f8f8f8; color: #000;}
+.dropdown-content a:hover {background-color: #f8f8f8; color: #000;}
+
+
+.dropbtn:hover{background-color: #f8f8f8;}
+
+
+.dropdown:hover .dropbtn {
+    background-color: #f8f8f8;
+    color: #000;
+}
+
+/*DROPDOWN MENU CLOSED */
+
+
+
+
+/* CAROUSEL */
+.carousel-inner {
+    border-radius: 0px;
+}
+.section-white {
+    padding: 0;
+    background: rgba(255,255,255,0.100); 
+    color: #fff;
+}
+
+.carousel-caption h2{
+    color: #eee;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-right: 2%;
+}
+
+.carousel-caption {
+    background-color: rgba(0,0,0,0); 
+}
+.carousel-indicators{
+    text-align: center;
+    padding: 0 0 11px 0px;
+}
+
+
+
+/*charity */
+div#block-charities h2{
+    padding-left: 10px;
+}
+
+div#block-charities div table tr td img {
+    border-radius: 0px;
+}
+
+div#block-charities div table tr td{
+    padding: 10px;
+}
+
+
+
+/* image row at the bottom of front page*/
+
+.three-images table tr td {
+    width: 33.33%;
+}
+
+table tr td img {
+    width: 100%;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+table,table tr td{
+    border: 0px;
+}
+
+
+
+/* SERVICES*/
+div#block-serviceheading {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.service-block {
+    height: 535px;
+}
+
+.textonimage {
+    position: absolute;
+    bottom: 66%;
+    width: 94%;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #fff;
+text-shadow: 2px 3px 0px #000;
+}
+
+span.btn-readmore {
+    position: relative;
+    top: 10px;
+}
+
+span.btn-readmore a {
+    display: block;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 5px 11px;
+    background-color: #fff;
+    width: 116px;
+    border-radius: 0px;
+    margin-top: 10px;
+    color: #000;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 25px;
+    
+}
+
+
+span.btn-readmore a:hover{
+    text-decoration: none;
+
+}
+
+
+div.floated-image img {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 480px;
+    display: block;
+    height: auto;
+}
+
+/*service full page */
+
+
+
+
+
+/* clients */
+div#block-views-block-client-s-logo-block-1 {
+    padding-left: 30px;
+    padding-right: 15px;
+}
+
+.client-logo {
+    padding: 15px 20px;
+    min-height: 300px;
+}
+
+
+/* TEAM */
+div#block-team {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.img-teamall {
+    margin-top: 65px;
+}
+
+
+.jksteam img {
+
+    border: 1px solid #ddd;
+}
+
+h2.jks-teamall {
+    position: relative;
+    left: 1.3%;
+}
+
+
+
+
+/* ACCREDITION */
+div.accrediation{
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-right: 2px;
+    margin-bottom: 16px;
+}
+
+div.accr-block-adjust{
+    margin-left: 3px;
+}
+
+div.accrediation p {
+    text-align: left;
+}
+
+
+
+/* FORM STYLE */
+input#edit-captcha-response {
+    width: 200px;
+}
+
+input#edit-actions-submit {
+    width: 200px;
+}
+
+.btn-primary, .button--primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.btn, .button {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+
+
+marquee div{
+    display: inline-block;
+}
+
+
+marquee.marquee img {
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+    display: inline-block;
+    border-radius: 8px;
+    border: 1px solid #0653b7;
+    padding: 5px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+
+
+.footer {
+    text-align: center;
+    padding: 20px 0px;
+    margin-top: 15px;
+    border-top: 1px solid #fff;
+    color: #888;
+
+}
+
+.footer a{
+    color: #888;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 767px) {    
+
+    .client-logo{
+        min-height: auto;
+    }
+
+}
+
+
+/*col-sm tablets */
+/*@media (min-width: 768px) and (max-width: 991px) {*/
+@media (min-width: 768px) and (max-width: 960px) {   
+
+
+
+}
+
+
+
+/*col-md*/
+/*@media (min-width: 992px) and (max-width: 1200px) { */
+@media (min-width: 961px) and (max-width: 1200px) {     
+
+
+
+}
+
+
+/*col-xl*/
+@media (min-width: 1201px) { 
+
+
+}

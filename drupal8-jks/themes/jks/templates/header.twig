@@ -1,0 +1,53 @@
+{# header Twig template #}
+
+<div class="container bg-white">
+    <div class="row header-height">
+            
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                <div class="row">
+                {{ page.company_logo_at_top }}
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <div class="row wave-image">
+                   {{ page.header_middle_block }}
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                <div class="row">
+                    {{ page.address_top_right }}
+                </div>
+            </div>
+        
+    </div>
+</div>            
+
+<video id="vidbg" autoplay="" loop="">
+    <source src="themes/jks/video/jks_bg_720p_1mbps.mp4" type="video/mp4">
+    <!-- <source src="video/jks_bg_720p.webm" type="video/webm"> -->
+</video>
+
+<div class="container">  
+    <div class="row">
+        <nav class="navbar navbar-default navbar-static-top">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                {{ page.primary_menu }}
+            </div><!--/.nav-collapse -->
+        </nav>
+    </div>
+</div>    
+
+
+
+
+
+

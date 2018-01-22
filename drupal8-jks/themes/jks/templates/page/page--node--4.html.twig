@@ -1,0 +1,31 @@
+{% include 'themes/jks/templates/header.twig' %}
+
+
+<div class="container min-height jksteam">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            {{ page.content }}
+            <hr />
+            {{ page.team }}
+
+
+        </div>    
+
+        <br />
+        <hr />
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            
+            <div class="img-teamall">
+                <h2 class="jks-teamall">{{ page.team_all_heading }}</h2>
+                
+                {{ page.team_all }}
+
+            </div>     
+        </div>
+
+    </div>
+</div>    
+
+
+{% include 'themes/jks/templates/footer.twig' %}

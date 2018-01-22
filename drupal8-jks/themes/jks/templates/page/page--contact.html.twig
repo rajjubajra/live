@@ -1,0 +1,61 @@
+{% include 'themes/jks/templates/header.twig' %}
+
+
+
+
+
+
+<div class="container min-height">
+
+    <h1>{{ page.contact_page_heading }}</h1>
+    <hr class="divider30px">
+
+    <div class="row">
+
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="address-block">
+
+                <div class="well">
+                    {{ page.contact_address_block_1 }}
+                </div>
+
+
+                {% if contact_address_block_2 %}
+                    <div class="well">
+                        {{ page.contact_address_block_2 }}    
+                    </div>
+                {% endif %}
+
+
+
+                <div class="well">
+                    {{ page.contact_google_map }}
+                </div> 
+
+            </div>
+        </div>     
+
+
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="form-block"> 
+
+                <div class="well">
+                {#    <h1>{{ page.contact_form_title }}</h1>  #}
+                    
+                 <strong>   {{ page.highlighted }}</strong><br />
+                    
+                    {{ page.content }} 
+                   {#{{ page.contact_enquiry_form }}#}
+                </div>
+            </div>    
+        </div>
+    </div>
+
+</div>    
+
+
+
+
+
+
+{% include 'themes/jks/templates/footer.twig' %}
